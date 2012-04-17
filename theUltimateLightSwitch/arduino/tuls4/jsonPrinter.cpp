@@ -1,13 +1,14 @@
-#-------------------------------------------------------------------------------
-# Copyright (c) 2012 Robert Barnes.
-# All rights reserved. This program and the accompanying materials
-# are made available under the terms of the GNU Lesser Public License v2.1
-# which accompanies this distribution, and is available at
-# http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-# 
-# Contributors:
-#     Robert Barnes - initial API and implementation
-#-------------------------------------------------------------------------------
+/*******************************************************************************
+ * Copyright (c) 2012 Robert Barnes.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the GNU Public License v3.0
+ * which accompanies this distribution, and is available at
+ * http://www.gnu.org/licenses/gpl.html
+ * 
+ * Contributors:
+ *     Robert Barnes - initial API and implementation
+ ******************************************************************************/
+
 #include "jsonLib.h"
 #include "tuls.h"
 #define DEBUG(x)
