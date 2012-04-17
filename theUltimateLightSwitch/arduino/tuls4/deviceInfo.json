@@ -1,0 +1,65 @@
+#-------------------------------------------------------------------------------
+# Copyright (c) 2012 Robert Barnes.
+# All rights reserved. This program and the accompanying materials
+# are made available under the terms of the GNU Lesser Public License v2.1
+# which accompanies this distribution, and is available at
+# http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+# 
+# Contributors:
+#     Robert Barnes - initial API and implementation
+#-------------------------------------------------------------------------------
+{
+    "location":
+    {
+    	"room":"Kids Bath",
+    	"floor":2,
+    	"area":"W"
+    },
+    "sensors": 
+    {
+        "Humidity":
+        {
+            "pin":1
+        },
+        "Temp":
+        {
+            "pin":2
+        },
+        "Current":
+        {
+            "pin":3
+        },
+        "Motion":
+        {
+            "pin":4
+        }
+    },
+    "actuators":
+    {
+        "Lights":
+        {
+            "type":"relay",
+            "pin":5
+        },
+        "Fan":
+        {
+            "type":"relay",
+            "pin":6
+        }
+    },
+    "rpc":
+    {
+    	"add": {
+	    	"params":["int","int"],
+	    	"result":"int"
+    	},    	
+    	"alarm": {
+	    	"params":["time","script",{"repeat":"int?","period":"time?","label":"str?"}],
+	    	"result":"bool"
+    	},
+    	"getId": {
+    		"params":[],
+    		"result":"int"
+    	}
+    }
+}
