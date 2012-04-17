@@ -8,7 +8,6 @@
  * Contributors:
  *     Robert Barnes - initial API and implementation
  ******************************************************************************/
-
 #include "deviceInfo.h"
 #include "byteStream.h"
 #include "rpcLib.h"
